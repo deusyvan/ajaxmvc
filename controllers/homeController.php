@@ -11,6 +11,10 @@ class homeController extends controller{
         $this->loadTemplate('home', $dados);
         
     }
+    
+    public function testar(){
+        echo '123';
+    }
    
 }
 ?>

@@ -2,7 +2,7 @@ $(function(){
 	$('button').on('click', function(){
 		alert("Funcionou!");
 		$.ajax({
-			url: 'pasta/pasta/arquivo.php',
+			url: 'http://localhost/ajaxmvc/home/testar',
 			type: 'POST',
 			data: {nome: 'Deusyvan'},
 			success: function(r){
