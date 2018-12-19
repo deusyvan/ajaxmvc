@@ -1,3 +1,6 @@
-body {
-    background-color: #CCC;
+.borda {
+	border: 1px solid #FF0000;
+	padding: 20px;
+	width: 400px;
+	height: 300px;
 }
