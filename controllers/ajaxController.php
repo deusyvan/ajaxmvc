@@ -14,8 +14,12 @@ class ajaxController extends controller{
             
             $dados['frase'] = 'Meu nome: '.$nome;
         }
-        $this->loadView('ajax', $dados);
+        //$this->loadView('ajax', $dados);
         //Usamos loadView aqui porque não carregamos o site inteiro apenas a view.
+        //RETIRAMOS A VIEW PARA ENVIO VIA JSON
+        
+        echo json_encode($dados);//Transformando o array em JSON e mostrando ele mesmo e parando qualquer retorno
+        exit;
         
     }
     
