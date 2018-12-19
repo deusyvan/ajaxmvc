@@ -1,8 +1,8 @@
 $(function(){
 	$('button').on('click', function(){
-		alert("Funcionou!");
+		//alert("Funcionou!");
 		$.ajax({
-			url: 'http://localhost/ajaxmvc/home/testar',
+			url: 'http://localhost/ajaxmvc/ajax',
 			type: 'POST',
 			data: {nome: 'Deusyvan'},
 			success: function(r){
