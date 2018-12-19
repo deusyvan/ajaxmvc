@@ -13,8 +13,7 @@ class homeController extends controller{
     }
     
     public function testar(){
-        echo '123';
+        echo "123";
     }
    
 }
-?>
