@@ -1,1 +1,1 @@
-Em branco
+<?php echo $frase; ?>
