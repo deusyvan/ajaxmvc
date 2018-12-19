@@ -1,1 +1,5 @@
-//alert("Foi carregado!");
+$(function(){
+	$('button').on('click', function(){
+		alert("Funcionou!");
+	});
+});
